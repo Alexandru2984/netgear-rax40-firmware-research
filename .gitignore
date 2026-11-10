@@ -1,0 +1,52 @@
+# Original firmware and derived proprietary content
+firmware/
+extracted/
+rootfs/
+unpacked/
+*.img
+*.bin
+*.trx
+*.chk
+*.squashfs
+*.squashfs-xz
+*.uimage
+*.elf
+*.so
+*.o
+*.a
+*.zip
+
+# Ghidra project state and reverse-engineering artifacts
+*.gpr
+*.rep/
+*.gpr.lock
+*.gzf
+*.bndb
+*.idb
+*.i64
+*.id0
+*.id1
+*.nam
+*.til
+
+# Private evidence and machine-specific reports
+evidence/private/
+evidence/raw/
+analysis/raw/
+analysis/private/
+*.pcap
+*.pcapng
+*.core
+core
+core.*
+*.dump
+*.dump.*
+
+# Local tooling
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
